@@ -1,0 +1,32 @@
+name: Feature request
+description: Propose a focused improvement for Flowboard
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the need before proposing a solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: How should the experience work, including offline and without gestures when applicable?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Expected impact
+      options:
+        - label: Changes the schema or requires a migration
+        - label: Changes navigation or interface
+        - label: Changes offline behavior
+        - label: Requires a new native module
