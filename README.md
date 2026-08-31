@@ -18,11 +18,11 @@ An offline-first mobile task manager built to showcase engineering decisions bey
 
 ## Demo
 
-| Board | Drag-and-drop | Editing |
-| --- | --- | --- |
-| _Screenshot pending_ | _GIF pending_ | _Screenshot pending_ |
+| Light board | Dark board | Drag-and-drop | Task editing |
+| --- | --- | --- | --- |
+| <img src="docs/images/board-light.png" alt="Flowboard board in the light theme" width="220" /> | <img src="docs/images/board-dark.png" alt="Flowboard board in the dark theme" width="220" /> | <img src="docs/images/drag-and-drop.gif" alt="A task moving between board columns" width="220" /> | <img src="docs/images/task-editor.png" alt="Flowboard task editor" width="220" /> |
 
-Final assets will be added to `docs/images/`. See the [capture guide](docs/images/README.md).
+See the [capture guide](docs/images/README.md) for asset conventions.
 
 ## Stack
 
