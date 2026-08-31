@@ -2,6 +2,9 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
     "paths": {
       "@/*": [
         "./src/*"
@@ -9,7 +12,7 @@
       "@/assets/*": [
         "./assets/*"
       ]
-    }
+  }
   },
   "include": [
     "**/*.ts",

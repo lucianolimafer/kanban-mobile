@@ -1,42 +1,46 @@
 {
   "expo": {
-    "name": "kanban-mobile",
-    "slug": "kanban-mobile",
+    "name": "Flowboard",
+    "slug": "flowboard",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "kanbanmobile",
     "userInterfaceStyle": "automatic",
+    "icon": "./assets/images/flowboard-icon.png",
+    "scheme": "flowboard",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/images/flowboard-icon.png",
+      "bundleIdentifier": "dev.llferreira.flowboard",
+      "supportsTablet": true,
+      "appleTeamId": "H32S5S3N46"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#DDF4E9",
+        "foregroundImage": "./assets/images/flowboard-icon.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "dev.llferreira.flowboard"
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/flowboard-icon.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#FCFBF8",
+          "image": "./assets/images/flowboard-icon.png",
+          "imageWidth": 148
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "description": "Offline-first mobile Kanban built with Expo and WatermelonDB"
   }
 }
